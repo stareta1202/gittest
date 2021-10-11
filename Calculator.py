@@ -19,6 +19,7 @@ def setupGUI():
 
     window = Tk()
     window.title('Caculator')
+
     equation = StringVar()
     equation.set('0')
     displayLabel = Label(window, textvariable = equation, justify = RIGHT,
@@ -89,3 +90,4 @@ def equalPress():
         expression = ""
 
 guiMain()
+print("dongyoung hi")
